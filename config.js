@@ -14,12 +14,12 @@ function init() {
         DataStore.set("cc_preferences", {
             summonerId: null,
             playerChatId: null,
-            roomId: null
+            roomId: null,
         });
 }
 
 export default {
     update: update,
     get: get,
-    init: init
+    init: init,
 };

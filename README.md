@@ -6,12 +6,12 @@ Download [latest](https://github.com/DmitryFisk/pengu-chat-commands/releases/lat
 ## Features
 
 - Random number roll (1-100, you can specify your own value (example: "/roll 50"))
-- Random role selection (Simply outputs one of 5 roles in chat)
+- Random role selection (Works only when in lobby)
 - Coinflip
 
 ## Todo
 
 ```
 [-] Make more commands
-[-] Commands make actions (example: doing a /role command will set new role for you)
+[x] Commands make actions (example: doing a /role command will set new role for you)
 [-] Stop shitcoding
