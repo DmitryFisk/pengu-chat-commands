@@ -23,11 +23,15 @@ async function getCommand(message) {
             case "chat":
                 return await sendMessage(await command.execute(message.data.body.split(" ")));
             case "drawable":
+                const draw = command.execute();
                 const uikitManager = document.getElementById("lol-uikit-layer-manager-wrapper");
                 const root = document.createElement("div");
 
-                render(command.execute(), root);
+                render(draw, root);
                 uikitManager.appendChild(root);
+
+                const handleCloseButton = document.getElementById("cc-close-window");
+                handleCloseButton.onclick = () => draw.remove();
                 break;
             default:
                 console.log("not implemented yet");

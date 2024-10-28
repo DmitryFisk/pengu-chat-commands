@@ -1,7 +1,7 @@
 # [Pengu Loader](https://pengu.lol) chat commands plugin
 
 ## How to install
-Download [latest](https://github.com/DmitryFisk/pengu-chat-commands/releases/latest) release and put the folder inside it into your pengu plugins folder
+Download [latest](https://github.com/DmitryFisk/pengu-chat-commands/releases/latest) release, create a folde inside your pengu plugins folder and drop the files into this folder
 
 ## Features
 
@@ -15,3 +15,4 @@ Download [latest](https://github.com/DmitryFisk/pengu-chat-commands/releases/lat
 [-] Make more commands
 [x] Commands make actions (example: doing a /role command will set new role for you)
 [-] Stop shitcoding
+[-] Localisation

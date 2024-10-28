@@ -35,7 +35,7 @@ function listCommands() {
     let string = "";
 
     for (let i = 0; i < lolCommandHandler.commands.length; i++) {
-        string += `<li> ${lolCommandHandler.commands[i].name} - ${lolCommandHandler.commands[i].description}</li>\n`;
+        string += `<li> /${lolCommandHandler.commands[i].name} - ${lolCommandHandler.commands[i].description}</li>\n`;
     }
 
     return string;
